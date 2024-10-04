@@ -1,0 +1,18 @@
+/* Write your CSS here */
+* {
+  box-sizing: content-box;
+}
+.button {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px;
+  min-width: 50px;
+}
+.active-button {
+  border: 2px solid #0284c7;
+  border-radius: 20px;
+  color: #0284c7;
+}

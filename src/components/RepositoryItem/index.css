@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.item-container {
+  width: 25%;
+  padding: 20px;
+  background-color: #dbf6fc;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.avatar {
+  align-self: center;
+  width: 35%;
+}
+.details-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 10px;
+}
+.image {
+  width: 20px;
+  height: 20px;
+}
+.name {
+  color: #e73959;
+  font-size: 20px;
+  font-weight: bold;
+  align-self: center;
+}

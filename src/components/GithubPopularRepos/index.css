@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.main-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 25px;
+}
+.filter-item-list {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 15px;
+  list-style-type: none;
+}
+.repos-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  column-gap: 20px;
+  row-gap: 20px;
+}
